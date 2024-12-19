@@ -1,0 +1,126 @@
+.leaf{
+    animation: leaf 5s linear infinite;
+  }
+  
+  @keyframes leaf {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    50%{
+      transform: rotate(10deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  
+  }
+  
+  .leaf2{
+    animation: leaf2 5s linear infinite;
+  }
+  
+  @keyframes leaf2 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    50%{
+      transform: rotate(-10deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  
+  }
+  
+  .like{
+    animation: like 3s linear infinite;
+  }
+  
+  @keyframes like {
+    0%{
+      scale: 1;
+      transform: rotate(0deg);
+    }
+  
+    50%{
+      scale: 1.1;
+      transform: rotate(25deg);
+    }
+  
+    100%{
+      scale: 1;
+      transform: rotate(0deg);
+    }
+  }
+  
+  .heart {
+    animation: pulse 3s linear infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100%{
+      scale: 1;
+    }
+    50% {
+      scale: 1.2;
+    }
+  
+  }
+  
+  .plane{
+    position: relative;
+    animation: fly 3s linear infinite;
+  }
+  
+  @keyframes fly {
+    0%, 100%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(10deg);
+    }
+  }
+  
+  .chat {
+    animation: fade 3s linear infinite;
+  }
+  
+  @keyframes fade {
+    0%, 100%{
+      opacity: 1;
+    }
+  
+    50%{
+      opacity: 0.5;
+    }
+  }
+  
+  .twitter {
+    animation: twitter 3s linear infinite;
+  }
+  
+  @keyframes twitter {
+    0%, 100% {
+      scale: 1;
+    }
+    50% {
+      scale: 1.1;
+    }
+  }
+  
+  .mail{
+    animation: mail 3s linear infinite
+  }
+  
+  @keyframes mail{
+    0%, 100%{
+      scale: 1;
+    }
+    50% {
+      scale: 1.1;
+    }
+  }
